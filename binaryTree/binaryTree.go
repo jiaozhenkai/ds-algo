@@ -116,7 +116,7 @@ func inOrderIter(root *BinaryTreeNode) {
 
 		curr = stack[len(stack)-1]
 		fmt.Printf("%d  ", curr.value)
-		stack = stack[:len(stack)-1]
+		stack = stack[0 : len(stack)-1]
 		curr = curr.rChild
 	}
 }
