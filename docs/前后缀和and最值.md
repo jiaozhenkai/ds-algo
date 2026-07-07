@@ -126,4 +126,4 @@ for i := n-2 downto 0:
 
 ## 代码模板实现
 
-[suffixPrefixArray.go](./suffixPrefixArray/suffixPrefixArray.go)
+[suffixPrefixArray.go](../suffixPrefixArray/suffixPrefixArray.go)
